@@ -1,0 +1,41 @@
+    product: HP Laptop 15-bs0xx (2CH93EA#ABV)
+       product: 832B
+          product: Intel(R) Core(TM) i5-7200U CPU @ 2.50GHz
+             product: M471A5244BB0-CRC
+             product: CT4G4SFS8213.C8FADP
+          product: Xeon E3-1200 v6/7th Gen Core Processor Host Bridge/DRAM Registers
+             product: HD Graphics 620
+             product: Xeon E3-1200 v5/E3-1500 v5/6th Gen Core Processor Thermal Subsystem
+             product: Xeon E3-1200 v5/v6 / E3-1500 v5 / 6th/7th/8th Gen Core Processor Gaussian Mixture Model
+             product: Sunrise Point-LP USB 3.0 xHCI Controller
+                product: xHCI Host Controller
+                   product: USB Receiver
+                   product: Wireless-AC 3168 Bluetooth
+                   product: HP TrueVision HD Camera
+                product: xHCI Host Controller
+             product: Sunrise Point-LP Thermal subsystem
+             product: Sunrise Point-LP CSME HECI #1
+             product: Sunrise Point-LP SATA Controller [AHCI mode]
+             product: Sunrise Point-LP PCI Express Root Port #1
+                product: Sun XT [Radeon HD 8670A/8670M/8690M / R5 M330 / M430 / Radeon 520 Mobile]
+             product: Sunrise Point-LP PCI Express Root Port #5
+                product: RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller
+             product: Sunrise Point-LP PCI Express Root Port #6
+                product: Dual Band Wireless-AC 3168NGW [Stone Peak]
+             product: Sunrise Point LPC Controller/eSPI Controller
+             product: Sunrise Point-LP PMC
+             product: Sunrise Point-LP HD Audio
+             product: Sunrise Point-LP SMBus
+          product: PnP device PNP0c02
+          product: PnP device PNP0c02
+          product: PnP device PNP0c02
+          product: PnP device PNP0b00
+          product: PnP device INT3f0d
+          product: PnP device PNP0303
+          product: PnP device SYN3251
+          product: PnP device PNP0c02
+          product: PnP device PNP0c02
+             product: Samsung SSD 870
+             product: TOSHIBA MQ01ABD1
+       product: JC04041
+       product: OEM Define 5
