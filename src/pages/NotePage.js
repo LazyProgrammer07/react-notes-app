@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { ReactComponent as ArrowLeft } from '../assets/arrow-left.svg'
+import {config} from '../Constants'
 
 function NotePage({ match, history }) {
     let noteId = match.params.id;
@@ -14,13 +15,13 @@ function NotePage({ match, history }) {
     
     let getNote = async() => {
         if(noteId === 'new') return
-        let response = await fetch(`http://localhost:5000/notes/${noteId}`)
+        let response = await fetch(config.url.API_URL + `/notes/${noteId}`, {'method': 'GET'})
         let data = await response.json()
         setNote(data)
     }
 
     let createNote = async() => {
-        await fetch(`http://localhost:5000/notes/`, {
+        await fetch(config.url.API_URL + `/notes`, {
             method:'POST',
             headers:{
                 'Content-Type': 'application/json'
@@ -30,8 +31,8 @@ function NotePage({ match, history }) {
     }
 
     let updateNote = async() => {
-        await fetch(`http://localhost:5000/notes/${noteId}`, {
-            method:'PUT',
+        await fetch(config.url.API_URL + `/notes/${noteId}`, {
+            method:'PATCH',
             headers:{
                 'Content-Type': 'application/json'
             },
@@ -40,7 +41,7 @@ function NotePage({ match, history }) {
     }
 
     let deleteNote = async() => {
-        await fetch(`http://localhost:5000/notes/${noteId}`, {
+        await fetch(config.url.API_URL + `/notes/${noteId}`, {
             method:'DELETE'
         })
         history.push('/')

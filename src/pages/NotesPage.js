@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 // import notes from "../assets/data";
 import ListItem from "../components/ListItem";
 import AddButton from "../components/AddButton";
+import {config} from '../Constants'
 
 const NotesPage = () => {
 
@@ -12,7 +13,8 @@ const NotesPage = () => {
     }, [])
 
     let getNotes = async() => {
-        let response = await fetch('http://localhost:5000/notes')
+
+        let response = await fetch(config.url.API_URL + '/notes')
         let data = await response.json()
         
         setNotes(data)
